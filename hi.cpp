@@ -2,7 +2,7 @@
 #include <cctype>
 using namespace std;
 
-short strcmp_case_insensitive(string s1, string s2)
+short strcmp_case_insensitive(const string s1, const string s2)
 {
     size_t shorter_length;
     if(s1.length() < s2.length())

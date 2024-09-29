@@ -11,5 +11,6 @@ int main()
   assert(-1 == strcmp_case_insensitive("hi","t"));
   assert(1 == strcmp_case_insensitive("AppLicatION","apple"));
   assert(1 == strcmp_case_insensitive("orange","apple"));
+  std::cout << "Test finished successfully";
   return 0;
 }
