@@ -1,5 +1,6 @@
 #include <iostream>
 #include <cctype>
+#include "hi.hpp"
 using namespace std;
 
 short strcmp_case_insensitive(const string s1, const string s2)
